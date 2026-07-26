@@ -1,6 +1,6 @@
-# Hi, I'm Daniela
-
-### AI & MLOps Engineer Student @ Nackademin
+<p align="center">
+  <img src="githubbanner.png" alt="GitHub Banner">
+</p>
 
 - Stockholm, Sweden
 - Currently looking for my **LIA internship (Spring 2027)**
