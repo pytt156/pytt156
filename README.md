@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>MLOps Engineer student · AI systems · Backend · LLMOps</strong><br>
-  Stockholm, Sweden · Available for LIA from february 2027
+  Stockholm, Sweden
 </p>
 
 
@@ -109,18 +109,6 @@ I keep coming back to the same kinds of problems:
 * How much infrastructure is reasonable before you've accidentally built a platform?
 
 So naturally, I'm interested in MLOps, LLMOps, AI Engineering, backend systems, RAG, evaluation, observability and CI/CD.
-
----
-
-## Available for LIA · Spring 2027
-
-I'm searching for a LIA where I can work on real systems and learn how things are done outside school projects and my own slightly overengineered experiments.
-
-I don't expect to walk in knowing everything. I do want to understand why things are built the way they are, contribute where I can, and get better at building systems that survive outside my laptop.
-
-I'm mainly looking at MLOps, AI Engineering, LLMOps, Machine Learning Engineering and AI-focused backend roles.
-
-Stockholm, remote or hybrid.
 
 ---
 
