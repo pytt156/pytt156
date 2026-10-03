@@ -59,7 +59,7 @@ It started as a feature for my portfolio and turned into a full backend project 
 
 ---
 
-## Wired-AI
+## Wired-Al
 
 **AI onboarding assistant for interns and junior engineers**
 
@@ -79,7 +79,7 @@ We built an assistant that could answer internal questions, guide users and esca
   <img src="https://img.shields.io/badge/Docker-2b2b2b?style=flat-square" alt="Docker">
 </p>
 
-Repository: https://github.com/omeraytug/Wired-AI
+Repository: https://github.com/omeraytug/Wired-Al
 
 ---
 
