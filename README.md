@@ -12,7 +12,7 @@
 
 I'm studying MLOps Engineering at Nackademin and I have a tendency to turn small ideas into slightly larger systems than necessary.
 
-Most of what I build sits somewhere between AI, backend and MLOps. I like RAG, APIs, deployment, evaluation and all the parts that make a project feel less like a school exercise and more like something that could actually be used.
+Most of what I build sits somewhere between AI, backend and MLOps. I like RAG, APIs, deployment, observability and all the parts that make a project feel less like a school exercise and more like something that could actually be used.
 
 I learn best by building things, breaking them, fixing them, and then wondering why I didn't design them that way from the start.
 
@@ -27,7 +27,8 @@ I learn best by building things, breaking them, fixing them, and then wondering 
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/GitHub_Actions-24292F?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow">
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white" alt="MQTT">
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
 </p>
 
 
@@ -59,6 +60,36 @@ It started as a feature for my portfolio and turned into a full backend project 
 
 ---
 
+## FRED
+
+**A virtual room pet powered by sensors, state machines and perhaps slightly too much infrastructure.**
+
+FRED, Friendly Room Environment Device, is an IoT and MLOps project that turns real-time room data into the state of a small virtual companion.
+
+Sensors measure things like temperature, humidity, light, motion, sound and network health. The data travels through MQTT into a backend that validates incoming telemetry, determines room and pet state, detects anomalies and sends the result back to the physical device.
+
+The system is deliberately split between deterministic state logic and AI features. The room should still know that it is too cold even if an LLM is having a bad day.
+
+### Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-2b2b2b?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-2b2b2b?style=flat-square" alt="FastAPI">
+  <img src="https://img.shields.io/badge/MQTT-2b2b2b?style=flat-square" alt="MQTT">
+  <img src="https://img.shields.io/badge/TimescaleDB-2b2b2b?style=flat-square" alt="TimescaleDB">
+  <img src="https://img.shields.io/badge/Grafana-2b2b2b?style=flat-square" alt="Grafana">
+  <img src="https://img.shields.io/badge/scikit--learn-2b2b2b?style=flat-square" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Docker-2b2b2b?style=flat-square" alt="Docker">
+  <img src="https://img.shields.io/badge/Azure-2b2b2b?style=flat-square" alt="Azure">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2b2b2b?style=flat-square" alt="GitHub Actions">
+</p>
+
+Built as a team project, with my main focus on the backend, state logic, MQTT integration, anomaly detection, AI interaction layer and CI/CD.
+
+Repository: https://github.com/pytt156/FRED
+
+---
+
 ## Wired-Al
 
 **AI onboarding assistant for interns and junior engineers**
@@ -85,16 +116,17 @@ Repository: https://github.com/omeraytug/Wired-Al
 
 ## Other Projects
 
-### Taxi Price Prediction
-
-An end-to-end machine learning project using historical taxi data.
-
-Not too glamorous, but useful for learning what happens between "I have some data" and "I have a model that actually does something."
-
 ### MLOps Model Serving
 
-A project focused on serving machine learning models through FastAPI and working with reproducible ML workflows, built upon a 
-training pipeline with PyTorch while also learning more about model training, experimentation and the bits underneath the abstractions.
+A project focused on serving a trained CIFAR-10 model through FastAPI and Docker, with an emphasis on model packaging, reproducible environments, API design and deployment.
+
+The model training itself lives in a separate PyTorch training pipeline, keeping training and serving as distinct parts of the ML lifecycle.
+
+### PyTorch Training Pipeline
+
+A reproducible training workflow for experimenting with and training image classification models in PyTorch.
+
+Built to explore the parts around the model itself: configuration, experiments, artifacts, reproducibility and how a training workflow connects to the systems that eventually serve the model.
 
 ---
 
@@ -104,18 +136,19 @@ I keep coming back to the same kinds of problems:
 
 * How do you make AI applications reliable?
 * How do you know if retrieval is actually good?
+* What happens when data is missing, stale or just wrong?
 * What should be logged and monitored?
 * How do you deploy something without creating a small disaster?
 * How much infrastructure is reasonable before you've accidentally built a platform?
 
-So naturally, I'm interested in MLOps, LLMOps, AI Engineering, backend systems, RAG, evaluation, observability and CI/CD.
+So naturally, I'm interested in MLOps, LLMOps, AI Engineering, backend systems, RAG, evaluation, observability, event-driven systems and CI/CD.
 
 ---
 
 ## Links
 
-**Portfolio**
+**Portfolio**  
 https://daniela.algerydh.com
 
-**LinkedIn**
+**LinkedIn**  
 https://www.linkedin.com/in/daniela-algerydh
